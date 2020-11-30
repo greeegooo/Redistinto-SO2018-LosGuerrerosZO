@@ -15,3 +15,5 @@ con el planificador que desplanificaba
 y con las nenas.
 
 Gracias
+
+PD: Ninguno recuerda como buildear esto
