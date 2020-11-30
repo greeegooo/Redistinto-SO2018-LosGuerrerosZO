@@ -1,0 +1,19 @@
+GET Z
+SET Z luc
+GET J
+SET J lucas
+STORE Z
+GET V
+SET V lucas
+STORE V
+GET N
+SET N lucas
+STORE N
+GET K
+SET K lucas
+GET O
+SET O lucas
+STORE K
+GET P
+SET P lucas
+STORE O

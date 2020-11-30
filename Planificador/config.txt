@@ -1,0 +1,7 @@
+Puerto_Escucha=8000
+Algoritmo_Planificacion=SJF_SD
+Alfa_Planificacion=50
+Estimacion_Inicial=3
+IP_Coordinador=192.168.43.233
+Puerto_Coordinador=8001
+Claves_Bloqueadas=[B,postre:ingrediente1]

@@ -1,0 +1,12 @@
+GET A
+SET A aaaaaa
+STORE A
+GET B
+SET B bbb
+STORE B
+GET A
+SET A aaa
+STORE A
+GET C
+SET C ccccc
+STORE C

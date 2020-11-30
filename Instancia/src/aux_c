@@ -1,0 +1,23 @@
+#include "../includes/aux.h"
+
+void imprimir_memoria(Instancia ** instancia) {
+
+    t_entrada * entrada = NULL;
+
+    printf("\n");
+    printf("--------------------- Tabla de entradas -------------------------\n");
+    printf("Entrada\tOcupado\tAtomico\tVictima\tReferen\tEspacio\tClave/Valor\n");
+    for (int i = 0; i < (*instancia)->cantidad_Entradas; ++i) {   
+
+        entrada = Obtener_entrada((*instancia)->tabla_Entradas, i);
+
+        printf("%d \t", entrada->id);
+        printf("%d \t", entrada->ocupado);
+        printf("%d \t", entrada->esAtomico);
+        printf("%d \t", entrada->esVictima);
+        printf("%d \t", entrada->referenciado);
+        printf("%d/%d \t", entrada->bytesOcupados, entrada->tamanio);
+        printf("%s \t", entrada->clave);
+        printf("%.*s\n", (*instancia)->tamanio_Entrada ,entrada->ptrEntrada);
+    }
+}

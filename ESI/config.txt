@@ -1,0 +1,4 @@
+IP_Coordinador=192.168.43.233
+Puerto_Coordinador=8001
+IP_Planificador=192.168.43.233
+Puerto_Planificador=8000

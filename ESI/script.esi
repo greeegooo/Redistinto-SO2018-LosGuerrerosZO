@@ -1,0 +1,6 @@
+GET boca
+SET boca soyso
+STORE boca
+GET river
+SET river soy
+STORE river 

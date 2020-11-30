@@ -1,0 +1,22 @@
+GET L1
+SET L1 aaa
+GET B1
+SET B1 aa
+GET L2
+SET L2 bbb
+GET B2
+SET B2 bb
+GET L3
+SET L3 ccc
+GET B3
+SET B3 ccc
+GET L4
+SET L4 ddd
+GET B4
+SET B4 dd
+GET L1
+SET L1 xx
+GET L5
+SET L5 eee
+GET B5
+SET B5 eee

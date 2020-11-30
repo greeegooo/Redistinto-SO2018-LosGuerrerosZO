@@ -1,0 +1,5 @@
+Puerto_Escucha=8001
+Algoritmo_Distribucion=EL
+Cantidad_Entradas=8
+Tamanio_Entradas=10
+Retardo=1
